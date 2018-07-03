@@ -24,31 +24,31 @@ suite('Unit Tests', function(){
     
     test('Decimal Input', function(done) {
       const input = '2.5kg'
-      assert.equal(convertHandler.getNum, 2.5)
+      assert.equal(convertHandler.getNum(input), 2.5)
       done();
     });
     
     test('Fractional Input', function(done) {
       const input = '2/4kg'
-      assert.equal(convertHandler.getNum, 0.5)
+      assert.equal(convertHandler.getNum(input), 0.5)
       done();
     });
     
     test('Fractional Input w/ Decimal', function(done) {
       const input = '2.5/5kg'
-      assert.equal(convertHandler.getNum, 0.5)
+      assert.equal(convertHandler.getNum(input), 0.5)
       done();
     });
     
     test('Invalid Input (double fraction)', function(done) {
       const input = '2/5/5kg'
-      assert.equal(convertHandler.getNum, 'invalid number')
+      assert.equal(convertHandler.getNum(input), 'invalid number')
       done();
     });
     
     test('No Numerical Input', function(done) {
       const input = 'kg'
-      assert.equal(convertHandler.getNum, 1)
+      assert.equal(convertHandler.getNum(input), 1)
       done();
     }); 
     
@@ -66,7 +66,7 @@ suite('Unit Tests', function(){
     
     test('Unknown Unit Input', function(done) {
       const input = '12kh'
-      assert.equal(convertHandler(input), 'invalid unit')
+      assert.equal(convertHandler.getUnit(input), 'invalid unit')
       done();
     });  
     

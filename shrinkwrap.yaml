@@ -32,6 +32,7 @@ packages:
     dev: false
     engines:
       node: '>=0.4.0'
+    hasBin: true
     resolution:
       integrity: sha1-q259nYhqrKiwhbwzEreaGYQz8Oc=
   /ajv/5.5.2:
@@ -391,6 +392,7 @@ packages:
     dev: false
     engines:
       node: '>=4.0'
+    hasBin: true
     optionalDependencies:
       source-map: 0.6.1
     resolution:
@@ -399,6 +401,7 @@ packages:
     dev: false
     engines:
       node: '>=4'
+    hasBin: true
     resolution:
       integrity: sha1-/cpRzuYTOJXjyI1TXOSdv/YqRjM=
   /estraverse/4.2.0:
@@ -606,6 +609,7 @@ packages:
       integrity: sha1-nZ55MWXOAXoA8AQYxD+UKnsdEfo=
   /he/1.1.1:
     dev: false
+    hasBin: true
     resolution:
       integrity: sha1-k0EP0hsAlzUVH4howvJx80J+I/0=
   /helmet-csp/2.7.0:
@@ -891,12 +895,14 @@ packages:
       integrity: sha512-lc/aahn+t4/SWV/qcmumYjymLsWfN3ELhpmVuUFjgsORruuZPVSwAQryq+HHGvO/SI2KVX26bx+En+zhM8g8hQ==
   /mime/1.4.1:
     dev: false
+    hasBin: true
     resolution:
       integrity: sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==
   /mime/1.6.0:
     dev: false
     engines:
       node: '>=4'
+    hasBin: true
     resolution:
       integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
   /minimatch/3.0.4:
@@ -913,6 +919,7 @@ packages:
     dependencies:
       minimist: 0.0.8
     dev: false
+    hasBin: true
     resolution:
       integrity: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   /mocha/3.5.3:
@@ -933,6 +940,7 @@ packages:
     engines:
       node: '>= 0.10.x'
       npm: '>= 1.4.x'
+    hasBin: true
     resolution:
       integrity: sha512-/6na001MJWEtYxHOV1WLfsmR4YIynkUEhBwzsb+fk2qmQ3iqsi258l/Q2MWHJMImAcNpZ8DEdYAK72NHoIQ9Eg==
   /mongodb-core/2.1.19:
@@ -1216,6 +1224,7 @@ packages:
       integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
   /semver/5.5.0:
     dev: false
+    hasBin: true
     resolution:
       integrity: sha512-4SJ3dm0WAwWy/NVeioZh5AntkdJoWKxHxcmyP622fOkgHa4z3R0TdBJICINyaSDE6uNwVc8gZr+ZinwZAH4xIA==
   /send/0.16.2:
@@ -1274,6 +1283,7 @@ packages:
     dev: false
     engines:
       node: '>=0.10.0'
+    hasBin: true
     optionalDependencies:
       bcrypt-pbkdf: 1.0.2
       ecc-jsbn: 0.1.1
@@ -1420,6 +1430,7 @@ packages:
       integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
   /uuid/3.3.2:
     dev: false
+    hasBin: true
     resolution:
       integrity: sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
   /vary/1.1.2:
@@ -1491,7 +1502,7 @@ packages:
     resolution:
       integrity: sha512-b634oIFJ2SFHnWEdntljrBeEroF1piyTiPmZPqsZwwy2KC5MLazq97eHPw1Qz77VPujQTEnbhOUvMssjpak2WQ==
 registry: 'https://registry.npmjs.org/'
-shrinkwrapMinorVersion: 7
+shrinkwrapMinorVersion: 8
 shrinkwrapVersion: 3
 specifiers:
   body-parser: ^1.15.2
